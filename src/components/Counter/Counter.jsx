@@ -9,7 +9,7 @@ const Counter = () => {
     <div>
       <h1 className="text-5xl">clinet component</h1>
       <h1 className="text-4xl">counter={counter}</h1>
-      <button className="btn border border-amber-100 p-2" onClick={() => setCounter(counter + 1)}>
+      <button className="btn btn btn-accent border border-amber-100 p-2" onClick={() => setCounter(counter + 1)}>
         Increase
       </button>
       <button className="btn border border-amber-300 p-2" onClick={() => setCounter(counter - 1)}>
