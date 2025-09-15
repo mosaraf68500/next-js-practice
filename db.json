@@ -1,0 +1,105 @@
+{
+  "shoes": [
+  {
+    "id": 1,
+    "name": "Nike Air Zoom Pegasus",
+    "brand": "Nike",
+    "price": 120,
+    "size": [7, 8, 9, 10, 11],
+    "color": "Black",
+    "inStock": true,
+    "image": "https://example.com/shoes/nike-pegasus.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Adidas Ultraboost 22",
+    "brand": "Adidas",
+    "price": 180,
+    "size": [6, 7, 8, 9, 10],
+    "color": "White",
+    "inStock": true,
+    "image": "https://example.com/shoes/adidas-ultraboost.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Puma RS-X",
+    "brand": "Puma",
+    "price": 95,
+    "size": [6, 7, 8, 9],
+    "color": "Red",
+    "inStock": false,
+    "image": "https://example.com/shoes/puma-rsx.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Reebok Nano X2",
+    "brand": "Reebok",
+    "price": 110,
+    "size": [7, 8, 9, 10, 11, 12],
+    "color": "Blue",
+    "inStock": true,
+    "image": "https://example.com/shoes/reebok-nano.jpg"
+  },
+  {
+    "id": 5,
+    "name": "New Balance 574",
+    "brand": "New Balance",
+    "price": 85,
+    "size": [6, 7, 8, 9, 10],
+    "color": "Grey",
+    "inStock": true,
+    "image": "https://example.com/shoes/nb-574.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Converse Chuck Taylor All Star",
+    "brand": "Converse",
+    "price": 60,
+    "size": [5, 6, 7, 8, 9, 10, 11],
+    "color": "Black/White",
+    "inStock": true,
+    "image": "https://example.com/shoes/converse-chuck.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Vans Old Skool",
+    "brand": "Vans",
+    "price": 70,
+    "size": [6, 7, 8, 9, 10],
+    "color": "Black",
+    "inStock": false,
+    "image": "https://example.com/shoes/vans-oldskool.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Under Armour HOVR Phantom",
+    "brand": "Under Armour",
+    "price": 140,
+    "size": [7, 8, 9, 10, 11],
+    "color": "White/Red",
+    "inStock": true,
+    "image": "https://example.com/shoes/ua-hovr.jpg"
+  },
+  {
+    "id": 9,
+    "name": "ASICS Gel-Kayano 28",
+    "brand": "ASICS",
+    "price": 160,
+    "size": [7, 8, 9, 10, 11, 12],
+    "color": "Navy",
+    "inStock": true,
+    "image": "https://example.com/shoes/asics-gel.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Skechers D'Lites",
+    "brand": "Skechers",
+    "price": 75,
+    "size": [6, 7, 8, 9],
+    "color": "Pink",
+    "inStock": false,
+    "image": "https://example.com/shoes/skechers-dlites.jpg"
+  }
+]
+
+}
