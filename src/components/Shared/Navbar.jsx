@@ -2,14 +2,34 @@ import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
-    const NavLink=<>
-    
-    <li> <Link href="/">Home</Link></li>
-     <li> <Link href="/dashboard">Dashboard</Link></li>
-      <li> <Link href="/products">products</Link></li>
-       <li> <Link href="/about">about</Link></li>
-        <li> <Link href="/news/blogs">news</Link></li>
+  const NavLink = (
+    <>
+      <li>
+        {" "}
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        {" "}
+        <Link href="/dashboard">Dashboard</Link>
+      </li>
+      <li>
+        {" "}
+        <Link href="/products">products</Link>
+      </li>
+      <li>
+        {" "}
+        <Link href="/about">about</Link>
+      </li>
+      <li>
+        {" "}
+        <Link href="/news/blogs">news</Link>
+      </li>
+      <li>
+        {" "}
+        <Link href="/imageoptimization">Image</Link>
+      </li>
     </>
+  );
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
@@ -42,9 +62,7 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {NavLink}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{NavLink}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
