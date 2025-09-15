@@ -4,7 +4,7 @@
     "id": 1,
     "name": "Nike Air Zoom Pegasus",
     "brand": "Nike",
-    "price": 120,
+    "price": 10,
     "size": [7, 8, 9, 10, 11],
     "color": "Black",
     "inStock": true,

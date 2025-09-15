@@ -25,8 +25,13 @@ const Navbar = () => {
         <Link href="/news/blogs">news</Link>
       </li>
       <li>
-        {" "}
+        
         <Link href="/imageoptimization">Image</Link>
+      </li>
+
+      <li>
+        
+        <Link href="/all-shoes">all shoes</Link>
       </li>
     </>
   );
