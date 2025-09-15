@@ -6,7 +6,8 @@ const HomePage = async() => {
   const res=await fetch("http://localhost:5000/shoes");
   const shoes=await res.json();
 
-  
+//  throw new Error("error from home page");
+
   return (
     <div>
       <h1 className="text-center text-2xl">this is next js home page</h1>
